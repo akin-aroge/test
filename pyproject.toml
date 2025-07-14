@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataops"
+version = "0.0.1"
+dependencies = [
+    "pandas=2.2.3",
+    "numpy=2.3.1"
+]
+description = "A set of tools for routine DFA tasks"
+authors = [{ name = "DFA Team", email = "aaroge@nyiso.com" }]
+maintainers = [
+    { name = "Akin Aroge", email = "aaroge@nyiso.com" },
+
+]
+readme = "README.md"
+requires-python = "==3.12.*"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://git.nyiso.com/DFA/data-ops"
+Issues = "https://git.nyiso.com/DFA/data-ops/issues"
+
