@@ -6,8 +6,8 @@ build-backend = "setuptools.build_meta"
 name = "dataops"
 version = "0.0.1"
 dependencies = [
-    "pandas=2.2.3",
-    "numpy=2.3.1"
+    "pandas==2.2.3",
+    "numpy==2.3.1"
 ]
 description = "A set of tools for routine DFA tasks"
 authors = [{ name = "DFA Team", email = "aaroge@nyiso.com" }]
